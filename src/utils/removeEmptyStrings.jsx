@@ -1,0 +1,1 @@
+export const removeEmptyStrings = (obj) => Object.fromEntries(Object.entries(obj).filter(([_, v]) => v !== ''));
